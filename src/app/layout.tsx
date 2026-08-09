@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang={site.locale}>
+    <html lang={site.locale} data-scroll-behavior="smooth">
       <body>
         <SiteHeader />
         <main id="main">{children}</main>

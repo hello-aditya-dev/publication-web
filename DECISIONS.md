@@ -26,3 +26,13 @@ sections.
 ## 2026-08-09 — Human-approved content only
 
 The public site must not autonomously publish drafts from the newsroom workflow.
+
+## 2026-08-09 — Zero third-party UI dependencies
+
+The foundation uses a pure CSS design system with custom properties. No Tailwind, no component
+library, no animation framework. This keeps the editorial product self-contained and fast.
+
+## 2026-08-09 — Private repository during foundation work
+
+The GitHub repository was created as private to protect the pre-launch foundation. Visibility
+should be changed only after launch readiness is confirmed.
