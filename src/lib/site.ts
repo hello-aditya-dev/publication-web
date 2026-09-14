@@ -4,7 +4,7 @@ export const site = {
   tagline: "Deep systems. Hard evidence.",
   description:
     "Technical intelligence on AI systems, compute, semiconductors, infrastructure, security, and original data.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://publication-web.vercel.app",
   locale: "en",
   sections: [
     { label: "Latest", href: "/latest" },
