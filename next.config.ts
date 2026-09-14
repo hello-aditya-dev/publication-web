@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // Required so the build script's `cp -r .next/static .next/standalone/.next/`
+  // succeeds (standalone output produces .next/standalone/).
+  output: "standalone",
   images: {
     formats: ["image/avif", "image/webp"]
   },
